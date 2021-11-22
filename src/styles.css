@@ -47,3 +47,36 @@ h6 {
   right: 0;
   z-index: 1000;
 }
+
+.header_iner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header_logo {
+  font-size: 30px;
+  font-weight: 700;
+  color: #fff;
+}
+
+/*Nav*/
+
+.nav {
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.nav-link {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 15px;
+  color: #fff;
+  text-decoration: none;
+
+  transition: color 0.2s linear;
+}
+
+.nav-link:hover {
+  color: #fce38a;
+}
