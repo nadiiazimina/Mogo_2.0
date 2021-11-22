@@ -155,3 +155,14 @@ h6 {
   background-color: #fff;
   color: #333;
 }
+
+/* Slider */
+
+.slider {
+  display: flex;
+  justify-content: space-between;
+}
+
+.slider_item {
+  width: 24%;
+}
