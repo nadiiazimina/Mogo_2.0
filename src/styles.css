@@ -159,10 +159,12 @@ h6 {
 /* Slider */
 
 .slider {
-  display: flex;
   justify-content: space-between;
+  display: flex;
 }
 
 .slider_item {
   width: 24%;
+
+  font-size: 18px;
 }
