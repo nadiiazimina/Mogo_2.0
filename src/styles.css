@@ -218,7 +218,7 @@ h6 {
 .section_header {
   width: 100%;
   max-width: 950px;
-  margin-bottom: 40px;
+  margin-bottom: 0 auto 40px;
   text-align: center;
 }
 
@@ -235,7 +235,7 @@ h6 {
   text-transform: uppercase;
 }
 
-.section_title :after {
+.section_title:after {
   content: "";
   display: block;
   width: 60px;
