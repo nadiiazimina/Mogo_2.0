@@ -282,15 +282,15 @@ h6 {
 
 .services_item {
   flex: 1 1 0;
-
-  padding-left: 90px;
+  padding-right: 35px;
+  padding-left: 85px;
   position: relative;
 }
 
 .services_icon {
   position: absolute;
   top: 0;
-  left: 30px;
+  left: And 28px;
   z-index: 1;
 }
 
