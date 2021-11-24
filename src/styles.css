@@ -226,6 +226,7 @@ hr {
 }
 
 .section--devices {
+  margin-bottom: 40px;
   padding-bottom: 0;
 
   background: url("../src/devices-bg.jpg") center no-repeat;
@@ -369,8 +370,18 @@ hr {
 }
 
 .devices_item--iphone {
-  position: relative;
+  position: absolute;
   bottom: -80px;
   right: 0;
   z-index: 1;
+}
+
+/* Wedo*/
+
+.wedo {
+  display: flex;
+}
+
+.wedo_item {
+  width: 50%;
 }
