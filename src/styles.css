@@ -385,3 +385,19 @@ hr {
 .wedo_item {
   width: 50%;
 }
+
+/* Accordion*/
+
+.accordion_item {
+  border: 1px solid #e5e5e5;
+}
+
+.accordion_header {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.accordion_content {
+  padding: 15px 20px;
+  font-size: 15px;
+  color: #999;
+}
