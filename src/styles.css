@@ -589,7 +589,7 @@ hr {
   border-right: 0;
 }
 
-social_item:hover {
+.social_item:hover {
   color: #fff;
   background-color: #f38181;
 }
@@ -598,4 +598,15 @@ social_item:hover {
 .logos {
   display: flex;
   justify-content: space-between;
+   align-items: center;
+}
+
+/*Works*/
+
+.works {
+  display: flex;
+}
+
+.works_col {
+  flex: 1 1 0;
 }
