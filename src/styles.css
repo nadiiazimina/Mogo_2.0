@@ -614,13 +614,46 @@ hr {
 .works_item {
   position: relative;
 
-  background: linear-gradient(to bottom, #f38181 #fce38a);
+  background: linear-gradient(to bottom, #f38181, #fce38a);
 }
 
 .works_item:hover .works_image {
-  transition: opacity 0.1s linear;
+  opacity: 0.1s;
+}
+
+.works_item:hover .works_info {
+  opacity: 0.1s;
 }
 
 .works_image {
-  transition: opacity 0.1s linear;
+  display: block;
+  transition: opacity 0.2s linear;
+}
+
+.works_info {
+  width: 100%;
+  padding: 0 15px;
+
+  text-align: center;
+  color: #fff;
+  opacity: 0;
+
+  position: absolute;
+  top: 50px;
+  left: 0;
+
+  transform: translate3d(0, -50, 0);
+  transition: opacity 0.2s linear;
+}
+
+.works_title {
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+.works_text {
+  font-size: 15px;
+  font-weight: 300;
+  font-style: italic;
 }
