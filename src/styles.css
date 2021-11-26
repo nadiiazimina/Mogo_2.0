@@ -641,8 +641,9 @@ hr {
   position: absolute;
   top: 50px;
   left: 0;
+  z-index: 1;
 
-  transform: translate3d(0, -50, 0);
+  transform: translate3d(0, -50%, 0);
   transition: opacity 0.2s linear;
 }
 
