@@ -854,3 +854,24 @@ hr {
 .map_title a:hover {
   text-decoration: underline;
 }
+
+/*Footer*/
+
+.footer {
+  padding-top: 65px;
+
+  background-color: #f8f8f8;
+}
+
+.footer_logo {
+  margin-bottom: 30px;
+
+  font-size: 46px;
+  font-weight: 700;
+  color: #ccc;
+}
+
+.footer_text {
+  font-size: 15px;
+  color: #999;
+}
