@@ -639,6 +639,17 @@ hr {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 0 -15;
+}
+
+.logos_item {
+  padding: 0 15px;
+}
+
+.logos_img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 /*Works*/
@@ -1227,11 +1238,19 @@ hr {
   /*Reviews*/
   .reviews_photo {
     position: static;
-    margin: auto;
+    margin: 0 auto 20px;
   }
 
   .reviews_item {
     padding-left: 0;
+  }
+
+  .reviews_text {
+    font-size: 16px;
+  }
+
+  .reviews_author {
+    font-size: 20px;
   }
 }
 
@@ -1287,4 +1306,11 @@ hr {
     bottom: -50px;
     right: -80px;
   }
+
+  /*Reviews*/
+  .reviews {
+    padding: 0;
+  }
+
+  /*Logos*/
 }
